@@ -2,7 +2,7 @@
 #'
 #' @description If the location term in a regression model does not depend on any
 #' previously observed values of the outcome in a longitudinal data set,
-#' then we obtain simplication in our estimation procedure when the
+#' then we obtain simplification in our estimation procedure when the
 #' outcomes can be missing. Using the default value of \code{unity} for the
 #' argument \code{modify} in the \code{\link{mreg}} function does this.
 #'

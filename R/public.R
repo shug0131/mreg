@@ -9,7 +9,7 @@
 #' \describe{
 #' \item{\code{damaged}}{The number of radiologically damaged joints}
 #'  \item{\code{intervisit.time}}{Time between clinic visits}
-#'  \item{\code{esr.init}}{The first ESR measurment}
+#'  \item{\code{esr.init}}{The first ESR measurement}
 #'  \item{\code{art.dur.init}}{The duration of arthritis at first
 #'    clinic visit}
 #'  \item{\code{tender}}{Count of the number of tender joints}

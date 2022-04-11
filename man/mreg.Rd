@@ -26,7 +26,7 @@ mreg(
 \item{formula}{This is a formula object e.g.  Y~A+B to describe the
 location parameter}
 
-\item{data}{This is a dataframe in which the variables are recorded}
+\item{data}{This is a data frame in which the variables are recorded}
 
 \item{patid}{In a longitudinal context this indexes the individuals.
 Note that the observations within each patient is assumed to be ordered
@@ -80,18 +80,16 @@ to a \code{\link{lm}} object. It has \code{\link{print}} and
 }
 \description{
 This software was created for the paper referred to
-below. If alongitudinal data base has regularly updated explanatory
+below. If a longitudinal data base has regularly updated explanatory
 variables, but whose outcome variable is only intermittently
 collected then we can still perform exact maximum likelihood
 estimation of a regression model if the outcome variable is discrete.
 }
 \examples{
-\dontrun{
-		data(public)
-T<-TRUE; F<-FALSE
-
+	data(public)
 mod1 <- mreg( damaged~offset(log(intervisit.time))+esr.init,
 data=public,patid=ptno,print.level=2, iterlim=1000 )
+\dontrun{
 mod.ncar <-mreg(damaged ~ offset(log(intervisit.time)) + esr.init +
          tender + effused + clinic.time, data = public, patid = ptno,
          modify = paper, modify.p = 5, mod.formula = ~art.dur.init,

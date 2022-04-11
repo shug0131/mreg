@@ -12,5 +12,10 @@ Authors@R: c(
 Description: Implements the methods described in Bond S, Farewell V, 2006, Exact Likelihood Estimation for a Negative Binomial Regression Model with Missing Outcomes, Biometrics.
 License: GPL (>= 3)
 Encoding: UTF-8
+Language: en-GB
 LazyData: true
+URL: https://github.com/shug0131/mreg
 RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

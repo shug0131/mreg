@@ -10,7 +10,7 @@ paper(x, y, mod.Z)
 \item{x}{is a vector of possible values the previous value of the
 response could take.}
 
-\item{y}{is an vector of the coefficients. Its lenght is specified in
+\item{y}{is an vector of the coefficients. Its length is specified in
 the \code{\link{mreg}} function by the argument \code{modify.p}.}
 
 \item{mod.Z}{vector of observed covariates that may interact with the

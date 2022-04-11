@@ -8,7 +8,7 @@
 #'
 #' @param x is a vector of possible values the previous value of the
 #' response could take.
-#' @param y is an vector of the coefficients. Its lenght is specified in
+#' @param y is an vector of the coefficients. Its length is specified in
 #' the \code{\link{mreg}} function by the argument \code{modify.p}.
 #' @param mod.Z vector of observed covariates that may interact with the
 #' unobserved preceding outcome corresponding to the observation. It is

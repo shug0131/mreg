@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# mreg
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of mreg is to implements the techniques of exact likelihood when the discrete outcome can be missing in a regression model. It is the accompanying software to the paper Bond S, Farewell V, 2006, Exact Likelihood Estimation for a
+Negative Binomial Regression Model with Missing Outcomes, Biometrics
+
+## Installation
+
+You can install the released version of mreg from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("mreg")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("shug0131/mreg")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example, warning=FALSE}
+library(mreg)
+ mod1 <- mreg( damaged~offset(log(intervisit.time))+esr.init,
+ data=public,patid=ptno,print.level=1, iterlim=1000 )
+ mod1
+ summary(mod1)
+```
+
+
+

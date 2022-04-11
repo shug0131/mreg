@@ -30,7 +30,7 @@ prints to output a description of the fitted model.
 }
 \description{
 @description Similar to \code{\link{summary.glm}}, it prints the coefficients,
-standard erros, Wald tests, residuals (if available) and dispersion from
+standard errors, Wald tests, residuals (if available) and dispersion from
 an \code{\link{mreg}} object.
 }
 \seealso{

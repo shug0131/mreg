@@ -10,7 +10,7 @@ unity(x, y, mod.Z)
 \item{x}{is a vector of possible values the previous value of the
 response could take.}
 
-\item{y}{is an vector of the coefficients. Its lenght is specified in
+\item{y}{is an vector of the coefficients. Its length is specified in
 the \code{\link{mreg}} function by the argument \code{modify.p}.}
 
 \item{mod.Z}{vector of observed covariates that may interact with the
@@ -24,7 +24,7 @@ A vector of zeroes the same length is the argument \code{x}.
 \description{
 If the location term in a regression model does not depend on any
 previously observed values of the outcome in a longitudinal data set,
-then we obtain simplication in our estimation procedure when the
+then we obtain simplification in our estimation procedure when the
 outcomes can be missing. Using the default value of \code{unity} for the
 argument \code{modify} in the \code{\link{mreg}} function does this.
 }
