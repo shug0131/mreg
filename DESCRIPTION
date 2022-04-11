@@ -1,0 +1,16 @@
+Package: mreg
+Type: Package
+Title: Fits Regression Models When The Outcome Is Partially Missing
+Version: 1.2
+Date: 2022-04-11
+Authors@R: c( 
+  person(given="Simon", family="Bond", email="simon.bond@addenbrookes.nhs.uk", 
+  role=c("aut","cre"), comment = c(ORCID = "0000-0003-2528-1040") ),
+  person(given="Vern", family="Farewell", email="vern.farewell@mrc-bsu.cam.ac.uk",
+  role="aut")
+  )
+Description: Implements the methods described in Bond S, Farewell V, 2006, Exact Likelihood Estimation for a Negative Binomial Regression Model with Missing Outcomes, Biometrics.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
