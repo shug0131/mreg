@@ -4,6 +4,11 @@
 # mreg
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/shug0131/mreg/workflows/R-CMD-check/badge.svg)](https://github.com/shug0131/mreg/actions)
+[![Codecov
+eudract_pkg](https://codecov.io/gh/shug0131/mreg/branch/master/graph/badge.svg)](https://app.codecov.io/gh/shug0131/mreg?branch=master)
+
 <!-- badges: end -->
 
 The goal of mreg is to implements the techniques of exact likelihood

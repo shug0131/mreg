@@ -1,6 +1,6 @@
 Package: mreg
 Type: Package
-Title: Fits Regression Models When The Outcome Is Partially Missing
+Title: Fits Regression Models When the Outcome is Partially Missing
 Version: 1.2
 Date: 2022-04-11
 Authors@R: c( 
