@@ -1,7 +1,7 @@
 Package: mreg
 Type: Package
 Title: Fits Regression Models When the Outcome is Partially Missing
-Version: 1.2
+Version: 1.2.0
 Date: 2022-04-11
 Authors@R: c( 
   person(given="Simon", family="Bond", email="simon.bond@addenbrookes.nhs.uk", 
