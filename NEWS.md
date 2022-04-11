@@ -1,3 +1,8 @@
+# mreg 1.2.1
+
+Preparing for next version
+
+
 # mreg 1.2
 
 * Updating the documentation to use ROxygen
