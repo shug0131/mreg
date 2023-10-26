@@ -1,10 +1,10 @@
 Package: mreg
 Type: Package
 Title: Fits Regression Models When the Outcome is Partially Missing
-Version: 1.2.0.9000
-Date: 2022-04-11
+Version: 1.2.1
+Date: 2023-10-26
 Authors@R: c( 
-  person(given="Simon", family="Bond", email="simon.bond@addenbrookes.nhs.uk", 
+  person(given="Simon", family="Bond", email="simon.bond7@nhs.net", 
   role=c("aut","cre"), comment = c(ORCID = "0000-0003-2528-1040") ),
   person(given="Vern", family="Farewell", email="vern.farewell@mrc-bsu.cam.ac.uk",
   role="aut")
@@ -15,7 +15,7 @@ Encoding: UTF-8
 Language: en-GB
 LazyData: true
 URL: https://github.com/shug0131/mreg
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

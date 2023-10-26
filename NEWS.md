@@ -1,6 +1,6 @@
 # mreg 1.2.1
 
-Preparing for next version
+Changing the contact email.  Adding a mreg-package alias to the documentation.
 
 
 # mreg 1.2
