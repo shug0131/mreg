@@ -6,5 +6,5 @@
 ^cran-comments\.md$
 ^\.github$
 ^CRAN-RELEASE$
-^build-dashboard\.R$
+^build_dashboard\.R$
 ^CRAN-SUBMISSION$
